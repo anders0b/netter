@@ -5,12 +5,8 @@ using Netter.Domain.SocialInteractions;
 
 namespace Netter.Infrastructure.Persistence;
 
-public class NetterDbContext : DbContext
+public class NetterDbContext(DbContextOptions<NetterDbContext> options) : DbContext(options)
 {
-    public NetterDbContext(DbContextOptions<NetterDbContext> options) : base(options)
-    {
-    }
-
     public DbSet<User> Users { get; set; }
     public DbSet<Post> Posts { get; set; }
     public DbSet<Follow> Follows { get; set; }
