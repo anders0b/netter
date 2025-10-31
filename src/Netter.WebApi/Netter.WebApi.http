@@ -1,0 +1,6 @@
+@Netter.WebApi_HostAddress = http://localhost:5255
+
+GET {{Netter.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
