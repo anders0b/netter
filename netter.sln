@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netter.Domain.Tests", "test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netter.Application.Tests", "tests\Netter.Application.Tests\Netter.Application.Tests.csproj", "{2B139B71-333E-4FC9-BCFD-9B2CA5D458FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netter.WebApp", "src\Netter.WebApp\Netter.WebApp.csproj", "{82E8F91E-ECFB-46E2-A88F-D26815924024}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -112,6 +114,18 @@ Global
 		{2B139B71-333E-4FC9-BCFD-9B2CA5D458FE}.Release|x64.Build.0 = Release|Any CPU
 		{2B139B71-333E-4FC9-BCFD-9B2CA5D458FE}.Release|x86.ActiveCfg = Release|Any CPU
 		{2B139B71-333E-4FC9-BCFD-9B2CA5D458FE}.Release|x86.Build.0 = Release|Any CPU
+		{82E8F91E-ECFB-46E2-A88F-D26815924024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E8F91E-ECFB-46E2-A88F-D26815924024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E8F91E-ECFB-46E2-A88F-D26815924024}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{82E8F91E-ECFB-46E2-A88F-D26815924024}.Debug|x64.Build.0 = Debug|Any CPU
+		{82E8F91E-ECFB-46E2-A88F-D26815924024}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{82E8F91E-ECFB-46E2-A88F-D26815924024}.Debug|x86.Build.0 = Debug|Any CPU
+		{82E8F91E-ECFB-46E2-A88F-D26815924024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E8F91E-ECFB-46E2-A88F-D26815924024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82E8F91E-ECFB-46E2-A88F-D26815924024}.Release|x64.ActiveCfg = Release|Any CPU
+		{82E8F91E-ECFB-46E2-A88F-D26815924024}.Release|x64.Build.0 = Release|Any CPU
+		{82E8F91E-ECFB-46E2-A88F-D26815924024}.Release|x86.ActiveCfg = Release|Any CPU
+		{82E8F91E-ECFB-46E2-A88F-D26815924024}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -124,5 +138,6 @@ Global
 		{E302A5AB-E4D2-4059-9CC1-C676251124CF} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{A17C6110-DEB3-4F46-B127-769E52DBCC97} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
 		{2B139B71-333E-4FC9-BCFD-9B2CA5D458FE} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+		{82E8F91E-ECFB-46E2-A88F-D26815924024} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 EndGlobal
